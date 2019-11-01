@@ -561,6 +561,9 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .carousel-caption h2 {
+    font-size: 2em;
+  }
   .navbar-collapse {
     background: rgba(0, 0, 0, 0.5);
   }
