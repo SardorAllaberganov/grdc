@@ -11,11 +11,9 @@ html, body {
 }
 
 .header {
-  padding: 0 75px;
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: url(../img/header-bg.png) no-repeat center;
   background-size: cover;
 }
 
@@ -105,8 +103,16 @@ html, body {
   padding: 10px 15px;
 }
 
+.header .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
 .navbar {
-  padding: 10px 75px 10px 0;
+  position: absolute;
+  width: 100%;
   z-index: 999;
 }
 
@@ -115,7 +121,7 @@ html, body {
 }
 
 .navbar .nav-link {
-  color: #777777;
+  color: #fff;
   margin: 0 10px;
 }
 
@@ -178,6 +184,11 @@ html, body {
   height: 100%;
   top: 0;
   left: 0;
+}
+
+.feedback-img {
+  width: 100px !important;
+  margin: 0 auto;
 }
 
 .comment-bg {
@@ -294,7 +305,8 @@ footer a:hover {
 }
 
 .about-header {
-  background: url(../img/about-bg.png) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/about-bg.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about-bg.png) no-repeat;
   background-size: cover;
   height: 70vh;
   padding: 0 75px;
@@ -449,9 +461,6 @@ footer a:hover {
   .navbar .nav-link {
     color: #fff;
   }
-  .header {
-    padding: 0 20px;
-  }
   .header-title {
     margin: 0;
     font-size: 26px;
@@ -554,9 +563,6 @@ footer a:hover {
 @media only screen and (max-width: 768px) {
   .navbar-collapse {
     background: rgba(0, 0, 0, 0.5);
-  }
-  .header {
-    padding: 0 10px;
   }
   .header-title {
     font-size: 30px;

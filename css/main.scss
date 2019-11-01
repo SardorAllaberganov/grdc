@@ -11,11 +11,9 @@ html,body{
 }
 
 .header{
-    padding: 0 75px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    background: url(../img/header-bg.png) no-repeat center;
     background-size: cover;
     &-title{
         color: #2776BB;
@@ -91,18 +89,29 @@ html,body{
     //     bottom: -100px;
     //     float: left;
     // }
+
+    .carousel-item {
+        height: 100vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
 
 
 .navbar{
-    padding: 10px 75px 10px 0;
+    position: absolute;
+    width: 100%;
     &-brand{
         img{
             width: 94px;
         }
     }
     .nav-link{
-        color: #777777;
+        color: #fff;
         margin: 0 10px;
     }
     z-index: 999;
@@ -162,6 +171,11 @@ html,body{
     left: 0;
 }
 
+.feedback-img{
+    width: 100px!important;
+    margin: 0 auto;
+}
+
 .comment-bg{
     background: url(../img/comment-bg.png);
     background-size: cover;
@@ -200,7 +214,6 @@ html,body{
         }
     }
 }
-
 
 
 .news-item-block{
@@ -259,7 +272,7 @@ footer{
 }
 
 .about-header{
-    background: url(../img/about-bg.png) no-repeat;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../img/about-bg.png) no-repeat;
     background-size: cover;
     height: 70vh;
     padding: 0 75px
@@ -403,7 +416,6 @@ footer{
         color: #fff;
     }
     .header{
-        padding: 0 20px;
         &-title{
             margin: 0;
             font-size: 26px;
@@ -510,7 +522,6 @@ footer{
         background: rgba($color: #000000, $alpha: .5)
     }
     .header{
-        padding: 0 10px;
         &-title{
             font-size: 30px;
             margin-top: 15px;

@@ -14,105 +14,97 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.htmls">
+            <img src="img/logo.png" alt="">
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <img src="img/hamburger.svg" style="width: 30px;" alt="">
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">О компании</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Проекты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feedback.html">Отзывы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Новости</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Контакты</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Язык
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">O'zbek</a>
+                        <a class="dropdown-item" href="#">Русский</a>
+                        <a class="dropdown-item" href="#">English</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="header">
-        <nav class="navbar navbar-expand-lg">
-            <!-- Brand -->
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="">
-            </a>
-
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <img src="img/hamburger.svg" style="width: 30px;" alt="">
-            </button>
-
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Главная</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">О компании</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Проекты</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="feedback.html">Отзывы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="news.html">Новости</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacts.html">Контакты</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Язык
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">O'zbek</a>
-                            <a class="dropdown-item" href="#">Русский</a>
-                            <a class="dropdown-item" href="#">English</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-7 offset-md-5">
-                    <h1 class="header-title">GEO RESEARCH
-                        <br> AND DEVELOPMENT
-                        <br> COMPANY</h1>
-                    <p class="header-text">
-                        Компания «GRDC» является ведущим мировым поставщиком технологий для комплексной оценки пласта, строительства скважин, управления
-                        добычей и переработки углеводородов.Компания работает более чем в 120 странах мира и насчитывает около 100
-                        000 сотрудников свыше 140 национальностей. «Шлюмберже» предоставляет самый широкий в отрасли спектр продуктов
-                        и услуг — от проведения геологоразведочных работ до управления добычей, а также комплексные решения, охватывающие
-                        весь производственный цикл — от пласта до трубопровода, для оптимизации добычи углеводородов и эффективной
-                        эксплуатации месторождения.
-                    </p>
-                    <a href="about.html" class="header-btn">Узнать подробнее »</a>
-                    <h4 class="header-news-title">Последние новости</h4>
-                    <div class="header-news-block">
-                        <div class="row mb-5">
-                            <div class="col-md-5">
-                                <a href="">
-                                    <div class="news-item">
-                                        <p>Выступление Президента Республики Узбекистан Шавката Мирзиёева на торжественной церемонии
-                                            открытия многофункционального ледового комплекса «Хумо арена»</p>
-                                        <p>
-                                            18.03.2019
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="news-item">
-                                    <a href="">
-                                        <div class="news-item">
-                                            <p>Отжиг и пуск скважины 320 на проекте «Кандым ГПЗ»</p>
-                                            <p>
-                                                18.03.2019
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="" class="header-all-news-btn">Все новости</a>
-                            </div>
-                        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active"
+                    style="background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('img/carousel1.jpg'); background-position: top; background-size: 100% 100%;">
+                    <div class="carousel-caption d-md-block">
+                        <h2 class="display-4 mb-5">Геология</h2>
+                    </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('img/carousel2.png')">
+                    <div class="carousel-caption d-md-block">
+                        <h2 class="display-4 mb-5">Бурение</h2>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item"
+                    style="background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('img/carousel3.jpg')">
+                    <div class="carousel-caption d-md-block">
+                        <h2 class="display-4 mb-5">Разработка месторождений</h2>
                     </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
     <div class="partners content-justification">
@@ -147,11 +139,16 @@
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-md-6">
-                    <p>Компания «GRDC» является ведущим мировым поставщиком технологий для комплексной оценки пласта, строительства
-                        скважин, управления добычей и переработки углеводородов.Компания работает более чем в 120 странах мира
-                        и насчитывает около 100 000 сотрудников свыше 140 национальностей. «Шлюмберже» предоставляет самый широкий
-                        в отрасли спектр продуктов и услуг — от проведения геологоразведочных работ до управления добычей, а
-                        также комплексные решения, охватывающие весь производственный цикл — от пласта до трубопровода, для оптимизации
+                    <p>Компания «GRDC» является ведущим мировым поставщиком технологий для комплексной оценки пласта,
+                        строительства
+                        скважин, управления добычей и переработки углеводородов.Компания работает более чем в 120
+                        странах мира
+                        и насчитывает около 100 000 сотрудников свыше 140 национальностей. «Шлюмберже» предоставляет
+                        самый широкий
+                        в отрасли спектр продуктов и услуг — от проведения геологоразведочных работ до управления
+                        добычей, а
+                        также комплексные решения, охватывающие весь производственный цикл — от пласта до трубопровода,
+                        для оптимизации
                         добычи углеводородов и эффективной эксплуатации месторождения.</p>
                     <div class="text-right">
                         <a href="" class="section-title">Узнать подробнее »</a>
@@ -181,10 +178,12 @@
             <div class="col-md-3">
                 <a href="projects-view.html">
                     <div class="project-item">
-                        <img class="w-100" src="img/projects/willian-justen-de-vasconcellos-LzwNq8DVQzs-unsplash.png" alt="">
+                        <img class="w-100" src="img/projects/willian-justen-de-vasconcellos-LzwNq8DVQzs-unsplash.png"
+                            alt="">
                         <div class="img-overlay"></div>
                         <p>
-                            Магистральный газопровод «Сила Сибири» будет транспортировать газ новых центров газодобычи на востоке страны — Якутского
+                            Магистральный газопровод «Сила Сибири» будет транспортировать газ новых центров газодобычи
+                            на востоке страны — Якутского
                             и Иркутского — российским потребителям и на экспорт в Китай.
                         </p>
                     </div>
@@ -197,7 +196,8 @@
                         <img class="w-100" src="img/projects/alex-kotomanov-pCgQBi-wvTU-unsplash.png" alt="">
                         <div class="img-overlay"></div>
                         <p>
-                            На полуострове Ямал, в Арктике, создан новый центр газодобычи. В перспективе он станет одним из основных для развития газовой
+                            На полуострове Ямал, в Арктике, создан новый центр газодобычи. В перспективе он станет одним
+                            из основных для развития газовой
                             отрасли России.
                         </p>
                     </div>
@@ -227,17 +227,57 @@
     </div>
     <div class="container-fluid" style="padding: 0">
         <div class="row comment-bg no-gutters">
-            <div class="col-md-12 text-center">
-                <img src="img/Ellipse.png" alt="">
-                <p class="commentator-name">Ирина Цой</p>
-                <div class="col-md-12 text-center">
-                    <p class="comment-text">
-                        <i>
-                            Динамично развивающаяся компания. Много сделано, но еще больше предстоит сделать. Освоение новых участков, реализация газового
-                            направления
-                        </i>
-                    </p>
+            <div class="owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item">
+                            <div class="col-md-12 text-center">
+                                <img class="feedback-img" src="img/Ellipse.png" alt="">
+                                <p class="commentator-name">Ирина Цой</p>
+                                <div class="col-md-12 text-center">
+                                    <p class="comment-text">
+                                        <i>
+                                            Динамично развивающаяся компания. Много сделано, но еще больше предстоит сделать. Освоение
+                                            новых участков, реализация газового
+                                            направления
+                                        </i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="col-md-12 text-center">
+                                <img class="feedback-img" src="img/Ellipse.png" alt="">
+                                <p class="commentator-name">Ирина Цой</p>
+                                <div class="col-md-12 text-center">
+                                    <p class="comment-text">
+                                        <i>
+                                            Динамично развивающаяся компания. Много сделано, но еще больше предстоит сделать. Освоение
+                                            новых участков, реализация газового
+                                            направления
+                                        </i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="col-md-12 text-center">
+                                <img class="feedback-img" src="img/Ellipse.png" alt="">
+                                <p class="commentator-name">Ирина Цой</p>
+                                <div class="col-md-12 text-center">
+                                    <p class="comment-text">
+                                        <i>
+                                            Динамично развивающаяся компания. Много сделано, но еще больше предстоит сделать. Освоение
+                                            новых участков, реализация газового
+                                            направления
+                                        </i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -250,7 +290,8 @@
                 <div class="col-md-3">
                     <div class="news-item-block">
                         <a href="" class="">
-                            <p>Выступление Президента Республики Узбекистан Шавката Мирзиёева на торжественной церемонии открытия
+                            <p>Выступление Президента Республики Узбекистан Шавката Мирзиёева на торжественной церемонии
+                                открытия
                                 многофункционального ледового комплекса «Хумо арена»</p>
                             <p>18.03.2019</p>
                         </a>
@@ -267,7 +308,8 @@
                 <div class="col-md-3">
                     <div class="news-item-block">
                         <a href="">
-                            <p>Алексей Миллер и Посол Сербии Славенко Терзич обсудили ход развития газотранспортной инфраструктуры
+                            <p>Алексей Миллер и Посол Сербии Славенко Терзич обсудили ход развития газотранспортной
+                                инфраструктуры
                                 в Сербии</p>
                             <p>11.09.2019</p>
                         </a>
@@ -276,7 +318,8 @@
                 <div class="col-md-3">
                     <div class="news-item-block">
                         <a href="">
-                            <p>«Газпром» и ЛУКОЙЛ обсудили перспективы развития взаимодействия в сферах поставки и переработки газа</p>
+                            <p>«Газпром» и ЛУКОЙЛ обсудили перспективы развития взаимодействия в сферах поставки и
+                                переработки газа</p>
                             <p>10.09.2019</p>
                         </a>
                     </div>
@@ -328,7 +371,7 @@
                                     <span>alexa.matthews@example.com</span>
                                 </div>
                             </div>
-    
+
                         </div>
                         <div class="col-md-5 offset-md-1 footer-links">
                             <h4 class="footer-title mb-3">БЫСТРЫЕ ССЫЛКИ</h4>
@@ -402,9 +445,18 @@
             </div>
         </div>
     </footer>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiZLdJWyzTLNVUBkuxVRlxmsKHqlZpFXY&callback=initMap" async
-        defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiZLdJWyzTLNVUBkuxVRlxmsKHqlZpFXY&callback=initMap"
+        async defer></script>
     <script src="js/map.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            margin: 10,
+            items: 1
+        })
+    </script>
 </body>
 
 </html>
